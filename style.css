@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+body nav, h1, h4, p, button{
+margin-left: 90px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden hidden;
+}
+
+#main {
+    height: 110%;
+    width: 100%;
+    background: url(Electric_scooter-removebg-preview.png) no-repeat right/contain;
+    position: relative;
+    padding: 30% 90px;
+    right: -27%;
+}
+#bg {
+    height: 100%;
+    width: 100%;
+ position: absolute;
+ background-color: #8C8D8F;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+background-color:rgba(75,69,69,0.11);
+}
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h4 {
+    left: 80;
+    font-size: 20px;
+    padding: 20px 20px;
+    display: flex;
+    color: #FAFAFA;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 7px;
+    font-weight: 500;
+}
+
+#nav h4>i {
+    padding-left:20px;
+}
+
+#nav2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #FAFAFA;
+    gap: 20px;
+    padding: 0 30px;
+}
+#high h1{
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 50px;
+    color: #FAFAFA;
+}
+#high p{
+margin-top: 20px;
+}
+#flex{
+    width: 100%;
+    height: 10%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    /* background-color: #fff; */
+    z-index: 1;
+    color: #FAFAFA;
+    position: absolute;
+    justify-content: space-between;
+}
+#flex>button{
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #FAFAFA;
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: all ease 0.5s;
+}
+#flex>i{
+    font-size: 20px;
+    font-weight: 70px;
+    ackground-color: black;
+    padding: 20px 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: all ease 0.5s;
+}
+#flex> i:hover{
+    padding: 10px 10px;
+    background-color:#fda66e;
+    font-size: 20px;
+}
+#flex button:hover{
+    padding: 10px 10px;
+    background-color: #fda66e;
+    font-size: 20px;
+    color: black;
+}
